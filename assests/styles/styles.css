@@ -1,0 +1,45 @@
+@import 'navbar.css';
+@import 'home.css';
+@import 'footer.css';
+@import 'about.css';
+@import 'skills.css';
+@import 'contact.css';
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+h1,h2,h3,h4,h5{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(197, 211, 230); 
+    background-image: url("../images/pexels-apasaric-325185.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-bottom: 100px; */
+ 
+
+    
+}
+
+@media (max-width:768px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font: 30px;
+    }
+    h3{
+        font-size: 20;
+    }
+    p{
+      font-size: 10px;
+    }
+}

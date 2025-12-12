@@ -1,0 +1,195 @@
+#skillsMain{
+    /* padding-top: 80px; */
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#skillsIntroduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-image: url('../images/artist.jpeg'); */
+    background-size: cover;
+    height: 300px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+#skillsIntroduction p{
+ background-color: rgb(131, 158, 175 , .5);
+ border-radius: 50px;
+ padding: 15px;
+ color: rgb(0, 0, 0);
+ text-shadow: none;
+ /* font-weight: bold; */
+ margin-top: 10px;
+
+}
+
+#skillsIntroduction h2{
+  /* background-color: rgb(131, 158, 175 , .5); */
+  border-radius: 50px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 50px;
+   
+   
+   }
+   #sampleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #artSkills{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 46 , .1);
+    border-radius: 50px;
+    padding: 10px;
+   }
+   #sampleArts{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+   }
+   .sampleArt{
+    width: 30%;
+    border-radius: 40px;
+    /* background-color: ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   }
+   .sampleArt1{
+    width: 24%;
+    border-radius: 40px;
+   }
+   #artistDescritption{
+    margin: 10px;
+    text-align: center;
+    background-color:  rgb(46, 46, 46 , .1);
+    border-radius: 30px;
+    padding: 10px;
+   }
+   #artistDescritption h2 ,p{
+    text-shadow: 2px 3px 3px rgb(253, 253, 253);
+
+   }
+   #artistDescritption h2 {
+   font-size: 50px;
+   }
+
+   #artSkills1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 46 , .1);
+    border-radius: 50px;
+    padding: 10px;
+   }
+
+   #sampleAnimtionContainer{
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .sampleAnimation{
+    height: 200px;
+   }
+   
+   
+   
+
+
+  @media (max-width:768px){
+
+    #skillsMain{
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 55px;
+      padding-top: 0px;
+  }
+  
+  
+  #skillsIntroduction{
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
+  #skillsIntroduction h2{
+     padding-top: 0px;
+     margin-top: 0px;
+      font-size: 25px;
+     
+     
+     }
+     #skillsIntroduction p{
+    
+       font-size: 13px;
+      
+      
+      }  
+    
+   
+     #sampleArts{
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      /* gap: 10px; */
+     
+     }
+     .sampleArt{
+      width: 90%;
+      flex-wrap: wrap;
+
+     }
+     .sampleArt1{
+      width: 90%;
+     }
+     
+     #artistDescritption h2 ,p{
+      text-shadow: 2px 3px 3px rgb(253, 253, 253);
+  
+     }
+     #artistDescritption h2 {
+     font-size: 30px;
+     }
+  
+     
+  
+     #sampleAnimtionContainer{
+      padding-top: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+     }
+  
+     .sampleAnimation{
+      height: 250px;
+      width: 95%;
+     }
+  }

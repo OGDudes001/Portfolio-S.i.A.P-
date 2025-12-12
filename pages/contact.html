@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assests/styles/styles.css">
+    <script defer src="/javascript.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="navBar">
+            <div id="LOGO">
+                <div><img src="../assests/images/regular-show-mordecai-coffee-512x512.png" id="navBarLogo"></div>
+                <div><h4 id="navBarTitle">Dudes</h4></div>
+            </div>
+    
+            <div id="navBarMenu">
+                <a href="/index.html" class="navMenuButton">Home</a>
+                <a href="About.html" class="navMenuButton">About</a>
+                <a href="skills.html" class="navMenuButton">Skills</a>
+                <a href="education.html" class="navMenuButton">Education</a>
+                <a href="contact.html" class="navMenuButtonGlow">Contact</a>
+                
+                <button id="menu-btn">☰</button>
+               
+                
+            </div>
+    
+          </nav>
+          <div id="options">
+            <ul id="menu" style="display: none;">
+            <li><a href="/index.html" class="navMenuButton1">Home</a></li>
+            <li><a href="About.html" class="navMenuButton1">About</a></li>
+            <li><a href="skills.html" class="navMenuButton1">Skills</a></li>
+            <li><a href="education.html" class="navMenuButton1">Education</a></li>
+            <li><a href="contact.html" class="navMenuButtonGlow1">Contact</a></li>
+         </ul></div>
+    </header>
+    <audio autoplay loop>
+        <source src="/assests/images/[J-pop] cinnamons - summertime (Normal) [Piano].mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+    <main >
+
+        <h2 id="contactTitle">Contact Me</h2>
+
+        <form action="https://formspree.io/f/xwpqlwja" method="POST" id="form">
+            <label>First Name:</label><br>
+            <input type="text" name="First Name" required><br><br>
+          
+            <label>Middle Name:</label><br>
+            <input type="text" name="Middle Name"><br><br>
+          
+            <label>Last Name:</label><br>
+            <input type="text" name="Last Name" required><br><br>
+          
+            <label>Gmail Address:</label><br>
+            <input type="email" name="Email" pattern=".+@gmail\.com" required><br><br>
+          
+            <label>Contact Number:</label><br>
+            <input type="tel" name="Contact Number" required><br><br>
+          
+            <label>Description of Order:</label><br>
+            <textarea name="Order Description" rows="5" cols="40" required></textarea><br><br>
+          
+            <input type="submit" value="Submit" id="submit">
+          </form>
+    
+    </main>
+
+
+    
+    <footer>
+        <p class="footerDescriptions">2025 - All Rights Reserved / Made by Dudes Inihao</p>
+    </footer>
+</body>
+</html>

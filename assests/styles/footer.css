@@ -1,0 +1,22 @@
+footer{
+    margin-top: 150px;
+    padding: 40px;
+    background-color: rgba(4, 4, 7,.9);
+    text-align: center;
+    bottom: 0;
+    color: rgb(25, 24, 31);
+    text-shadow: none;
+}
+
+.footerDescriptions{
+    text-shadow: none;
+    color: rgb(96, 97, 104);
+}
+
+
+@media (max-width:768px){
+    footer{
+        margin-top: 10px;
+        height: 1px;
+    }
+}

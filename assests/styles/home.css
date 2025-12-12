@@ -1,0 +1,214 @@
+.homeMain{
+    display: flex;
+    flex-direction: row;
+
+    
+    /* background-color: rgb(46, 39, 39); */
+    /* margin: 10%; */
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    padding-top: 50px;
+    /* border: 3px solid black; */
+}
+
+#homeProfileDetails{
+    /* background-color: red; */
+    /* margin: 10%; */
+    padding-top: 100px;
+    /* margin-right: 5%; */
+    /* border: 3px solid black; */
+    width: 50%;
+    height: 500px;
+
+}
+#homeProfileDetails h3{
+    color: rgb(0, 55, 87);
+    font-size: 30px;
+}
+#homeProfileDetails h1{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+#homeProfileDetails p{
+    background-color: rgba(25, 40, 71, 0.4);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 100px;
+    padding: 20px;
+    text-shadow: 1px 1px 3px black;
+}
+
+#homeSocialMediaIcons{
+    border: 2px solid blackz;
+}
+#homeProfilePic{
+    /* background-color: red; */
+    /* margin: 10%; */
+    /* border: 3px solid black; */
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seeWorksButton{
+    background-color: rgba(197, 214, 238, 0.5);
+    /* background: none; */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    border-style: none;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+#seeWorksButton1{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+#hireMeButton{
+    background-color: rgb(60, 9, 243);
+    border-radius: 100px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    border-style: none;
+    padding: 10px;
+}
+#homeProfilePic1{
+    width: 65%;
+    border-radius: 200px;
+    /* border: 3px solid black; */
+    /* border-top-left-radius: 100px; */
+    /* border-bottom-right-radius: 100px; */
+    /* padding: 20px; */
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+#homeSocialMediaIcons{
+    margin-top: 20px;
+    display: block;
+}
+
+.homeIcons{
+    background-color:rgb(151, 141, 141);
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin-right: 10px;
+    margin-top: 10%;
+}
+
+#hire{
+  color: white;
+  text-decoration: none;
+}
+
+.popup {
+    
+    animation: popup-up 1s ease-out forwards;
+  }
+
+  @keyframes popup-up {
+    0% {
+      transform: translateX(20%) translateY(10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%) translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .popup1 {
+    
+    animation: popup1-up 2s ease-out forwards;
+  }
+
+  @keyframes popup1-up {
+    0% {
+      transform: translateX(-20%) translateY(10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%) translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .popup2 {
+    
+    animation: popup2-up 3s ease-out forwards;
+  }
+
+  @keyframes popup2-up {
+    0% {
+      transform: translateX(0%) translateY(50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%) translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+  @media (max-width:768px){
+
+    .homeMain{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 60px;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 10%;
+      padding-bottom: 10px;
+      padding-top: 100px;
+      height: 700px;
+     
+    }
+
+    #homeProfileDetails{
+      /* background-color: red; */
+      /* margin: 10%; */
+      padding-top:0px ;
+      margin-top: 20px;
+      /* margin-right: 5%; */
+      /* border: 3px solid black; */
+      width: 100%;
+      height: 350px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+  }
+
+  #homeProfileDetails h3{
+    color: rgb(0, 55, 87);
+    font-size: 20px;
+    margin-top: 0px;
+}
+#homeProfileDetails h1{
+  font-size: 30px;
+}
+
+#homeProfilePic1{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 70%;
+}
+  }
+
+  @media (max-width:375px){
+
+    #homeProfilePic1{
+      padding-top: 50px;
+      width: 150%;
+    }
+  }
